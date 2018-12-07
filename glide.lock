@@ -1,6 +1,26 @@
-hash: a9af8efb38f1315cb3886501c513ad52d07350f49ea7cccf0f8580a74bacc864
-updated: 2018-05-10T09:39:38.939010061-07:00
+hash: 5a5e9c8711906d3394842d88f1084ac5f1cdb87dfd9516931d4e98d8b13e5458
+updated: 2018-05-11T15:49:24.318571955-07:00
 imports:
+- name: github.com/alecthomas/gometalinter
+  version: 0725fc6d498fd2e3b633d24256604c2fbe161bbc
 - name: github.com/aws/aws-sdk-go
-  version: 77973cb700f24ba24c77b8d376d5e7c676323871
+  version: 59a21fcfacca3b32766b385235797649ec791e48
+- name: github.com/docopt/docopt-go
+  version: ee0de3bc6815ee19d4a46c7eb90f829db0e014b1
+- name: github.com/fatih/gomodifytags
+  version: db1e1dec6c55b07070423de0d612b5473fe24b22
+- name: github.com/nsf/gocode
+  version: 9d1e0378d35b0527c9aef0d17c0913fc38d88b81
+- name: github.com/sqs/goreturns
+  version: 83e02874ec120f73d5f7dd382d62449dc8abe9c6
+- name: github.com/tpng/gopkgs
+  version: 81e90e22e204f5f18f1e36036af858bf7aa4bde0
+- name: github.com/zmb3/gogetdoc
+  version: b4c1dcb095da28d1d54e10184a3eddd9b0122f89
+- name: golang.org/x/tools
+  version: 48418e5732e1b1e2a10207c8007a5f959e422f20
+  subpackages:
+  - cmd/goimports
+  - cmd/gorename
+  - cmd/guru
 testImports: []

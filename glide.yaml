@@ -1,3 +1,15 @@
 package: .
 import:
+- package: golang.org/x/tools
+  subpackages:
+  - cmd/gorename
+  - cmd/goimports
+  - cmd/guru
 - package: github.com/aws/aws-sdk-go
+- package: github.com/tpng/gopkgs
+- package: github.com/fatih/gomodifytags
+- package: github.com/zmb3/gogetdoc
+- package: github.com/alecthomas/gometalinter
+- package: github.com/nsf/gocode
+- package: github.com/sqs/goreturns
+- package: github.com/docopt/docopt-go
